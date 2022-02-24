@@ -1,10 +1,20 @@
 import './App.css';
-import PortfolioContainer from './components/PortfolioContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+
 
 function App() {
+
   return (
-    <PortfolioContainer />
+    <div>
+      <Header>
+        <Nav />
+      </Header>
+      <Footer></Footer>
+    </div>
   );
 }
 
