@@ -1,5 +1,17 @@
 # Portfolio
 
+## Description
+This webpage houses my personal portfolio. Check out some of my favorite projects, learn a bit about me, view my resume, and connect with me! 
+
+This page was built with the MERN stack. 
+
+* [See portfolio here!](https://caitlinw29.github.io/portfolio/)
+
+## Screenshots
+![portfolio about page](./img/portfolio-about.png)
+![portfolio project page](./img/portfolio-projects.png)
+
+## CRA
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
