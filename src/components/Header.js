@@ -26,8 +26,10 @@ function Header() {
 
   return (
     <div>
-      <h1>Caitlin Wall</h1>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className='header px-5'>
+        <h1>Caitlin Wall</h1>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
       {renderPage()}
     </div>
   );

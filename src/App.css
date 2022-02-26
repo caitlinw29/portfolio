@@ -1,1 +1,27 @@
+/* HEADER */
+.header {
+  background: lightblue;
+}
 
+/* FOOTER */
+.bottom-contact ul {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-contact ul li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+.bottom-contact ul li a {
+  text-decoration: none;
+  border-bottom: solid 2px blue;
+  color: blue;
+}
+
+.bottom-contact li a:hover {
+  color: purple;
+  border-bottom: solid 3px purple;
+}
