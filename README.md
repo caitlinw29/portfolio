@@ -9,7 +9,6 @@ This page was built with the MERN stack.
 
 ## Screenshots
 ![portfolio about page](./img/portfolio-about.png)
-![portfolio project page](./img/portfolio-projects.png)
 
 ## CRA
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
