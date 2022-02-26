@@ -25,3 +25,71 @@
   color: purple;
   border-bottom: solid 3px purple;
 }
+
+/*Work Section*/
+.work-container {
+  position: relative; /*For the card-title*/
+  border: none;
+  margin: 10px;
+}
+
+.card-image {
+  background-repeat: none;
+  background-size: cover;
+}
+
+.card-title {
+  position: absolute; /*Positioned over work-container*/
+  bottom: 25px;
+  left: 0px;
+  background-color: aqua;
+  color: blue;
+  padding: 10px;
+  font-size: 180%;
+}
+
+.card-title p {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.small-card {
+  width: 385px;
+  height: 300px;
+}
+
+#monkey { /*Large image*/
+  background-image: url(../public/images/mentormonkey.png);
+  width: 800px;
+  height: 600px;
+}
+
+#random-generator {
+  background-image: url(../public/images/villager-bingo.PNG);
+}
+
+#antsGoMarching {
+  background-image: url(../public/images/antsGoMarching.png);
+}
+
+#pokeBattle {
+  background-image: url(../public/images/pokeBattle-SS.png);
+}
+
+#playMe {
+  background-image: url(../public/images/playme.png);
+}
+
+.layer { /*Semi-transparent color overlay*/
+  background-color: rgba(141, 160, 245, 0.7); 
+  position: absolute; /*Over card-image*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} 
+
+.layer:hover { /*Makes the image colors pop back in on hover as color overlay is fully transparent*/
+  background-color: rgba(141, 160, 245, 0);
+}
+
